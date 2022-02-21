@@ -1,0 +1,67 @@
+/** 
+  * Welcome Section
+  * ============================
+  */
+.welcome {
+  height: 70rem;
+  background: url("../images/home_slider.jpg") center / cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .section-headings {
+    letter-spacing: normal;
+
+    .subheading {
+      font: {
+        size: 2.5rem;
+        weight: 400;
+      }
+      color: #fff;
+    }
+  }
+
+  &__btn {
+    // Using <a> instead of <button>
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1.5rem 3.5rem;
+    font: {
+      size: 1.7rem;
+      weight: 400;
+    }
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #e62b4a;
+    border: 0.1rem solid #e62b4a;
+
+    transition: background-color 0.5s;
+
+    &:hover {
+      background-color: #af2239;
+    }
+  }
+
+  &__down-arrow {
+    display: block;
+    margin-top: 4rem;
+    font-size: 3.2rem;
+    color: #fff;
+
+    animation: moveDownArrow 1.5s infinite;
+  }
+}
+
+@keyframes moveDownArrow {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(4rem);
+    opacity: 0;
+  }
+}

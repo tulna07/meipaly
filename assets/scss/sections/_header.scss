@@ -1,0 +1,51 @@
+/** 
+  * Header
+  * ============================
+  */
+.header {
+  padding: 3rem 0;
+  position: absolute;
+  width: 100%;
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-logo {
+    color: #fff;
+    font-size: 3.2rem;
+
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    &__text {
+      font-weight: 700;
+      margin-top: -0.5rem;
+    }
+  }
+
+  &-nav {
+    margin-right: 4rem;
+
+    &-list {
+      display: flex;
+      gap: 5.5rem;
+    }
+
+    &-link {
+      font-size: 1.7rem;
+      color: #fff;
+      text-transform: uppercase;
+      transition: all 0.5s;
+
+      &:hover,
+      &--active {
+        color: #e62b4a;
+      }
+    }
+  }
+}

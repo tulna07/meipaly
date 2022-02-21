@@ -1,0 +1,46 @@
+/** 
+  * Blogs Section
+  * ============================
+  */
+.blogs {
+  background-color: #f3f3f3;
+
+  .section-headings {
+    margin-bottom: 5rem;
+
+    .subheading {
+      color: #888;
+      font-weight: 400;
+    }
+
+    .secondary-heading {
+      color: #000;
+    }
+  }
+
+  &-gallery {
+    display: grid;
+    grid-template-areas:
+      "img-1 img-1 img-2  img-3"
+      "img-1 img-1 img-4  img-5"
+      "img-6 img-7 img-10 img-10"
+      "img-8 img-9 img-10 img-10";
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(30%) contrast(50%);
+    transition: filter 0.5s;
+
+    &:hover {
+      filter: grayscale(0%) contrast(100%);
+    }
+
+    @for $i from 1 through 10 {
+      &--#{$i} {
+        grid-area: img-#{$i};
+      }
+    }
+  }
+}

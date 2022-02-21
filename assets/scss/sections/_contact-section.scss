@@ -1,0 +1,61 @@
+/** 
+  * Contact Section
+  * ============================
+  */
+.contact {
+  .section-headings {
+    margin-bottom: 3rem;
+
+    .secondary-heading {
+      color: #000;
+    }
+
+    .text-heading {
+      font-weight: 400;
+    }
+  }
+
+  &-content {
+    padding: 0 3rem;
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    column-gap: 2rem;
+  }
+
+  &__map {
+    width: 100%;
+  }
+
+  &-form {
+    &__controller {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      width: 95%;
+    }
+
+    &__username,
+    &__email,
+    &__asked-question {
+      padding: 1.5rem;
+      font-size: 1.5rem;
+    }
+
+    &__submit {
+      padding: 2rem;
+      border: none;
+      color: #fff;
+      background-color: #000;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      letter-spacing: 0.1rem;
+      cursor: pointer;
+
+      transition: background-color 0.5s;
+
+      &:hover {
+        background-color: #e62b4a;
+      }
+    }
+  }
+}

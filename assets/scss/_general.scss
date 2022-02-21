@@ -1,0 +1,81 @@
+/** 
+  * General
+  * ============================
+  */
+.section-padding {
+  padding: 9rem 0;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.section-headings {
+  text: {
+    align: center;
+    transform: uppercase;
+  }
+
+  .subheading {
+    font: {
+      size: 1.4rem;
+      weight: 300;
+    }
+    color: #e62b4a;
+  }
+
+  .primary-heading {
+    font-size: 7.5rem;
+    color: #fff;
+    line-height: 1.2;
+  }
+
+  .secondary-heading {
+    font: {
+      size: 5rem;
+      weight: 400;
+    }
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+
+  .text-heading {
+    font: {
+      size: 1.6rem;
+      weight: 700;
+    }
+    color: #888;
+    text-transform: none;
+  }
+}
+
+// Back to top button (Codyhouse)
+.back-to-top {
+  display: inline-block;
+  padding: 2.2rem;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 0.4rem;
+
+  visibility: hidden;
+  opacity: 0;
+
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+
+  i {
+    font-size: 1.8rem;
+    color: #fff;
+  }
+}
+.cd-top--is-visible {
+  // back-to-top button visible
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top--fade-out {
+  // reduce button opacity if user keeps scrolling
+  opacity: 0.5;
+}

@@ -1,0 +1,63 @@
+/** 
+  * Services Section
+  * ============================
+  */
+.services {
+  background-color: #000;
+
+  .section-headings {
+    margin-bottom: 3rem;
+    letter-spacing: 0.1rem;
+  }
+
+  &-item {
+    height: 23rem;
+    padding: 7rem 2rem;
+    margin: 0 1rem;
+    color: #888;
+    background-color: #fff;
+    text-align: center;
+
+    position: relative;
+
+    &__icon {
+      font-size: 5rem;
+    }
+
+    &__title {
+      font-size: 1.4rem;
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+    }
+
+    &::after {
+      content: "";
+      width: 0.5rem;
+      height: 0%;
+      background-color: #e62b4a;
+
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      transition: height 0.3s;
+    }
+
+    &:hover::after {
+      height: 100%;
+    }
+  }
+
+  .slick-dots {
+    bottom: -3.5rem;
+  }
+
+  .slick-dots li button:before {
+    color: #fff;
+    font-size: 1.4rem;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #e62b4a;
+  }
+}

@@ -1,0 +1,16 @@
+/** 
+  * Experience Section
+  * ============================
+  */
+.experience {
+  background: url("../../assets/images/bussiness_img_1.jpg") center / cover
+    no-repeat fixed;
+
+  .section-headings {
+    margin-bottom: 3rem;
+  }
+
+  &__video {
+    width: 100%;
+  }
+}

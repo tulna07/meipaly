@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meipaly</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/images/showcase_img_5.webp"
+      type="image/x-icon"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ***************** CSS Libs ***************** -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Slick Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Fancybox -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+      integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="assets/styles/main.css" />
+
+    <!-- ***************** Js Libs ***************** -->
+    <!-- jQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+
+    <!-- Slick Carousel -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+
+    <!-- Fancybox -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+      integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+
+    <!-- Counter Up -->
+    <script
+      src="assets/vendors/counter-up/jquery.countup.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"
+      integrity="sha512-oy0NXKQt2trzxMo6JXDYvDcqNJRQPnL56ABDoPdC+vsIOJnU+OLuc3QP3TJAnsNKXUXVpit5xRYKTiij3ov9Qg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+
+    <!-- Back to top -->
+    <script src="assets/vendors/back-to-top/main.js" defer></script>
+    <script src="assets/vendors/back-to-top/util.js" defer></script>
+
+    <script src="assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content container">
+        <a href="#" class="header-logo">
+          <i class="header-logo__icon fa-brands fa-atlassian"></i>
+          <p class="header-logo__text">meipaly</p>
+        </a>
+
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li>
+              <a class="header-nav-link header-nav-link--active" href="#"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a class="header-nav-link" href="#">Service</a>
+            </li>
+            <li>
+              <a class="header-nav-link" href="#">Showcase</a>
+            </li>
+            <li>
+              <a class="header-nav-link" href="#">Blog</a>
+            </li>
+            <li>
+              <a class="header-nav-link" href="#">About Us</a>
+            </li>
+            <li>
+              <a class="header-nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Welcome Section -->
+    <section class="welcome">
+      <div class="welcome-content">
+        <div class="section-headings">
+          <h3 class="subheading">WELCOME TO MEIPALY AGENCY</h3>
+          <h1 class="primary-heading">
+            SMART WEB <br /><span>DESIGN AGENCY</span>
+          </h1>
+        </div>
+        <a class="welcome__btn" href="#">Read More</a>
+        <i class="welcome__down-arrow fa-solid fa-angle-down"></i>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding">
+      <div class="container">
+        <div class="section-headings">
+          <h3 class="subheading">SERVICES WE ARE OFFERING</h3>
+          <h2 class="secondary-heading">
+            WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.
+          </h2>
+          <p class="text-heading">
+            We are committed to providing our customers with exceptional service
+            while offering <br />our employees the best training.
+          </p>
+        </div>
+        <div class="services-content">
+          <div class="services-carousel">
+            <div class="services-item">
+              <i class="services-item__icon fa-brands fa-autoprefixer"></i>
+              <p class="services-item__title">
+                Digital<br />
+                Marketing
+              </p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-solid fa-blog"></i>
+              <p class="services-item__title">Website Development</p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-brands fa-battle-net"></i>
+              <p class="services-item__title">SEO & Content Writing</p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-solid fa-memory"></i>
+              <p class="services-item__title">App Mobile Development</p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-brands fa-autoprefixer"></i>
+              <p class="services-item__title">
+                Digital<br />
+                Marketing
+              </p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-solid fa-blog"></i>
+              <p class="services-item__title">Website Development</p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-brands fa-battle-net"></i>
+              <p class="services-item__title">SEO & Content Writing</p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-solid fa-memory"></i>
+              <p class="services-item__title">App Mobile Development</p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-brands fa-autoprefixer"></i>
+              <p class="services-item__title">
+                Digital<br />
+                Marketing
+              </p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-solid fa-blog"></i>
+              <p class="services-item__title">Website Development</p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-brands fa-battle-net"></i>
+              <p class="services-item__title">SEO & Content Writing</p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-solid fa-memory"></i>
+              <p class="services-item__title">App Mobile Development</p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-solid fa-memory"></i>
+              <p class="services-item__title">App Mobile Development</p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-brands fa-autoprefixer"></i>
+              <p class="services-item__title">
+                Digital<br />
+                Marketing
+              </p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-solid fa-blog"></i>
+              <p class="services-item__title">Website Development</p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-brands fa-battle-net"></i>
+              <p class="services-item__title">SEO & Content Writing</p>
+            </div>
+            <div class="services-item">
+              <i class="services-item__icon fa-solid fa-memory"></i>
+              <p class="services-item__title">App Mobile Development</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section-padding">
+      <div class="container">
+        <div class="section-headings">
+          <h3 class="subheading">OUR PORTFOLIO</h3>
+          <h2 class="secondary-heading">WORK SHOWCASE</h2>
+          <p class="text-heading">
+            We are committed to providing our customers with exceptional service
+            while offering our<br />
+            employees the best training.
+          </p>
+        </div>
+
+        <div class="portfolio-content">
+          <div class="portfolio-gallery">
+            <div class="portfolio-item">
+              <img
+                class="portfolio-item__img"
+                src="assets/images/showcase_img_1.webp"
+                alt="Showcase image 1"
+              />
+              <div class="portfolio-item__overlay">
+                <a
+                  data-fancybox="gallery"
+                  data-caption="Caption #1"
+                  href="assets/images/showcase_img_1.webp"
+                  ><i
+                    class="portfolio-item__show-icon fa-solid fa-magnifying-glass"
+                  ></i
+                ></a>
+                <div class="portfolio-item-titles">
+                  <p class="portfolio-item-titles__subtitle">LOGO</p>
+                  <p class="portfolio-item-titles__title">FLIPPIN BIRD</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <img
+                class="portfolio-item__img"
+                src="assets/images/showcase_img_2.webp"
+                alt="Showcase image 2"
+              />
+              <div class="portfolio-item__overlay">
+                <a
+                  data-fancybox="gallery"
+                  data-caption="Caption #2"
+                  href="assets/images/showcase_img_2.webp"
+                >
+                  <i
+                    class="portfolio-item__show-icon fa-solid fa-magnifying-glass"
+                  ></i>
+                </a>
+                <div class="portfolio-item-titles">
+                  <p class="portfolio-item-titles__subtitle">LOGO</p>
+                  <p class="portfolio-item-titles__title">FLIPPIN BIRD</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <img
+                class="portfolio-item__img"
+                src="assets/images/showcase_img_3.webp"
+                alt="Showcase image 3"
+              />
+              <div class="portfolio-item__overlay">
+                <a
+                  data-fancybox="gallery"
+                  data-caption="Caption #3"
+                  href="assets/images/showcase_img_3.webp"
+                >
+                  <i
+                    class="portfolio-item__show-icon fa-solid fa-magnifying-glass"
+                  ></i>
+                </a>
+                <div class="portfolio-item-titles">
+                  <p class="portfolio-item-titles__subtitle">LOGO</p>
+                  <p class="portfolio-item-titles__title">FLIPPIN BIRD</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <img
+                class="portfolio-item__img"
+                src="assets/images/showcase_img_5.webp"
+                alt="Showcase image 4"
+              />
+              <div class="portfolio-item__overlay">
+                <a
+                  data-fancybox="gallery"
+                  data-caption="Caption #4"
+                  href="assets/images/showcase_img_5.webp"
+                >
+                  <i
+                    class="portfolio-item__show-icon fa-solid fa-magnifying-glass"
+                  ></i>
+                </a>
+                <div class="portfolio-item-titles">
+                  <p class="portfolio-item-titles__subtitle">LOGO</p>
+                  <p class="portfolio-item-titles__title">FLIPPIN BIRD</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <img
+                class="portfolio-item__img"
+                src="assets/images/showcase_img_6.webp"
+                alt="Showcase image 5"
+              />
+              <div class="portfolio-item__overlay">
+                <a
+                  data-fancybox="gallery"
+                  data-caption="Caption #5"
+                  href="assets/images/showcase_img_6.webp"
+                >
+                  <i
+                    class="portfolio-item__show-icon fa-solid fa-magnifying-glass"
+                  ></i>
+                </a>
+                <div class="portfolio-item-titles">
+                  <p class="portfolio-item-titles__subtitle">LOGO</p>
+                  <p class="portfolio-item-titles__title">FLIPPIN BIRD</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <img
+                class="portfolio-item__img"
+                src="assets/images/showcase_img_7.webp"
+                alt="Showcase image 6"
+              />
+              <div class="portfolio-item__overlay">
+                <a
+                  data-fancybox="gallery"
+                  data-caption="Caption #6"
+                  href="assets/images/showcase_img_7.webp"
+                >
+                  <i
+                    class="portfolio-item__show-icon fa-solid fa-magnifying-glass"
+                  ></i>
+                </a>
+                <div class="portfolio-item-titles">
+                  <p class="portfolio-item-titles__subtitle">LOGO</p>
+                  <p class="portfolio-item-titles__title">FLIPPIN BIRD</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section class="blogs section-padding">
+      <div class="section-headings">
+        <h3 class="subheading">OUR NEWS & ARTICLES</h3>
+        <h2 class="secondary-heading">LATEST BLOG POSTS</h2>
+        <p class="text-heading">
+          We are committed to providing our customers with exceptional service
+          while offering our <br />
+          employees the best training.
+        </p>
+      </div>
+
+      <div class="blogs-gallery">
+        <img
+          class="blogs__img blogs__img--1"
+          src="assets/images/grid-metro-1.jpg"
+          alt="Blog image 1"
+        />
+        <img
+          class="blogs__img blogs__img--2"
+          src="assets/images/grid-metro-2.jpg"
+          alt="Blog image 2"
+        />
+        <img
+          class="blogs__img blogs__img--3"
+          src="assets/images/grid-metro-3.jpg"
+          alt="Blog image 3"
+        />
+        <img
+          class="blogs__img blogs__img--4"
+          src="assets/images/grid-metro-4.jpg"
+          alt="Blog image 4"
+        />
+        <img
+          class="blogs__img blogs__img--5"
+          src="assets/images/grid-metro-5.jpg"
+          alt="Blog image 5"
+        />
+        <img
+          class="blogs__img blogs__img--6"
+          src="assets/images/grid-metro-6.jpg"
+          alt="Blog image 6"
+        />
+        <img
+          class="blogs__img blogs__img--7"
+          src="assets/images/grid-metro-7.jpg"
+          alt="Blog image 7"
+        />
+        <img
+          class="blogs__img blogs__img--8"
+          src="assets/images/grid-metro-8.jpg"
+          alt="Blog image 8"
+        />
+        <img
+          class="blogs__img blogs__img--9"
+          src="assets/images/grid-metro-9.jpg"
+          alt="Blog image 9"
+        />
+        <img
+          class="blogs__img blogs__img--10"
+          src="assets/images/grid-metro-10.jpg"
+          alt="Blog image 10"
+        />
+      </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics section-padding">
+      <div class="container">
+        <div class="statistics-content">
+          <div class="statistics-item">
+            <p class="statistics-item__number counter">8,705</p>
+            <h4 class="statistics-item__title">PROJECTS COMPLETED</h4>
+          </div>
+          <div class="statistics-item">
+            <p class="statistics-item__number counter">480</p>
+            <h4 class="statistics-item__title">ACTIVE CLIENTS</h4>
+          </div>
+          <div class="statistics-item">
+            <p class="statistics-item__number counter">625</p>
+            <h4 class="statistics-item__title">CUPS OF COFFEE</h4>
+          </div>
+          <div class="statistics-item">
+            <p class="statistics-item__number counter">9,774</p>
+            <h4 class="statistics-item__title">HAPPY CLIENTS</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section-padding">
+      <div class="container">
+        <div class="section-headings">
+          <h3 class="subheading">HOW DO WE WORKS</h3>
+          <h2 class="secondary-heading">DIGITAL EXPERIENCE</h2>
+          <p class="text-heading">
+            We are committed to providing our customers with exceptional service
+            while offering our <br />
+            employees the best training.
+          </p>
+        </div>
+
+        <video
+          class="experience__video"
+          controls
+          poster="assets/images/home_slider.jpg"
+        >
+          <source src="assets/images/video.mp4" />
+        </video>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding">
+      <div class="container">
+        <div class="section-headings">
+          <h2 class="secondary-heading">CONTACT</h2>
+          <p class="text-heading">
+            Thank you for your interest in our website & our services. If you
+            have any <br />
+            questions, please write us a message now!
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <iframe
+            class="contact__map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4951735359714!2d106.66647501402402!3d10.773335462198531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752edc3f3043a7%3A0xb490b64157cb9dc1!2sCybersoft!5e0!3m2!1svi!2s!4v1644994876286!5m2!1svi!2s"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+
+          <div class="contact-form">
+            <form class="contact-form__controller" action="/">
+              <input
+                class="contact-form__username"
+                type="text"
+                placeholder="Username"
+              />
+              <input
+                class="contact-form__email"
+                type="email"
+                placeholder="Email Address"
+              />
+              <textarea
+                class="contact-form__asked-question"
+                cols="30"
+                rows="10"
+                placeholder="Ask a Question..."
+              ></textarea>
+              <input
+                class="contact-form__submit"
+                class="contact-form__submit"
+                type="submit"
+                value="Submit"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section-padding">
+      <div class="container">
+        <div class="footer-content">
+          <p class="footer__copyright">
+            &copy; 2021 UI-CYBERSOFT. ALL RIGHTS RESERVED.
+          </p>
+
+          <ul class="footer-media-list">
+            <li>
+              <a href="#" class="footer-media-link">
+                <i class="footer-media-link__icon fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-media-link">
+                <i class="footer-media-link__icon fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-media-link">
+                <i class="footer-media-link__icon fa-brands fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-media-link">
+                <i class="footer-media-link__icon fa-brands fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top cd-top text-replace js-cd-top">
+      <i class="fa-solid fa-angle-up"></i>
+    </a>
+  </body>
+</html>

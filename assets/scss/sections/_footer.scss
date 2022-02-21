@@ -1,0 +1,51 @@
+/** 
+  * Footer
+  * ============================
+  */
+.footer {
+  color: #fff;
+  background-color: #000;
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__copyright {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+
+  &-media-list {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &-media-link {
+    display: inline-block;
+    width: 5.4rem;
+    height: 5.4rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    color: inherit;
+
+    position: relative;
+
+    transition: background-color 0.5s;
+
+    &__icon {
+      font-size: 1.6rem;
+      color: inherit;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &:hover {
+      background-color: #e62b4a;
+    }
+  }
+}

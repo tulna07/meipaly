@@ -1,0 +1,32 @@
+/** 
+  * Statistics Section
+  * ============================
+  */
+.statistics {
+  background-color: #000;
+
+  &-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+  }
+
+  &-item {
+    &__number {
+      font: {
+        size: 6rem;
+        weight: 300;
+      }
+      color: #fff;
+    }
+
+    &__title {
+      font: {
+        size: 2rem;
+        weight: 400;
+      }
+      color: #888;
+      text-transform: uppercase;
+    }
+  }
+}
